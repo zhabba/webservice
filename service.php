@@ -13,8 +13,6 @@
  * regenerate autoload_classmap.php
  */
 
-ini_set('error_reporting', E_ALL);
-
 require_once __DIR__ . '/Zend/Loader/ClassMapAutoloader.php';
 $loader = new Zend\Loader\ClassMapAutoloader();
 $loader->registerAutoloadMap(__DIR__ . '/autoload_classmap.php');
